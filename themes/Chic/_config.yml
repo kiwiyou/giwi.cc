@@ -68,9 +68,9 @@ post_copyright_enable: true
 post_copyright_author_enable: true
 post_copyright_permalink_enable: true
 post_copyright_license_enable: true
-post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
+post_copyright_license_text: Copyright (c) 2020 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ko">저작자표시-비영리 4.0</a> 라이선스
 post_copyright_slogan_enable: true
-post_copyright_slogan_text: It is the time you have wasted for your rose that makes your rose so important.
+post_copyright_slogan_text: '"너의 장미꽃이 그토록 소중한 것은 그 꽃을 위해 네가 공들인 그 시간 때문이야."'
 ## toc
 post_toc_enable: true
 
