@@ -1,4 +1,3 @@
 ---
-title: About
-layout: about
+title: 소개
 ---

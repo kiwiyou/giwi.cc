@@ -1,4 +1,4 @@
 ---
-title: Tag
+title: 꼬리표
 layout: tag
 ---

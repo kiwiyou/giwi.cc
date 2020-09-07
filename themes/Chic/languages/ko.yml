@@ -1,19 +1,19 @@
-categories: 카테고리
+categories: 분류
 search: 검색
-tags: 태그
-tagcloud: 태그 클라우드
+tags: 꼬리표
+tagcloud: 꼬리표 목록
 tweets: 트윗
 prev: 이전
 next: 다음
 comment: 댓글
-archive_a: 아카이브
-archive_b: "아카이브: %s"
-page: 페이지 %d
-recent_posts: 최근 포스트
+archive_a: 글 목록
+archive_b: "글 목록: %s"
+page: "%d쪽"
+recent_posts: 최근 글
 newer: 최신
 older: 이전
 share: 공유
 powered_by: Powered by
-rss_feed: RSS Feed
-category: 카테고리
-tag: 태그
+rss_feed: RSS 피드
+category: 분류
+tag: 꼬리표

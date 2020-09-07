@@ -3,10 +3,10 @@ navname: Jungle
 
 # navigatior items
 nav:
-  Posts: /archives
-  Categories: /category
-  Tags: /tag
-  About: /about
+  '글 목록': /archives
+  '분류': /category
+  '꼬리표': /tag
+  '소개': /about
 
 # favicon
 favicon: /favicon.ico
