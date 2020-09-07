@@ -104,3 +104,17 @@ theme: Chic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+markdown:
+  renderer:
+    html: true
+    xhtmlOut: false
+    linkfy: true
+    typographer: true
+    quotes: '“”‘’'
+  anchors:
+    level: 1
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: '# '
