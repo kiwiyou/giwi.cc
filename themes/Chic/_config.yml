@@ -9,7 +9,7 @@ nav:
   '소개': /about
 
 # favicon
-favicon: /favicon.ico
+favicon: true
 
 # Profile
 nickname: kiwiyou
