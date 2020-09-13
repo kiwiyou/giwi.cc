@@ -64,7 +64,7 @@ settings.rs는 따로 볼 부분이 없어서 바로 telegram.rs로 넘어가자
 ## telegram.rs
 
 보통 코드를 위에서 아래로 보긴 하지만 `fn syntax` 코드가 너무 강렬해서 시선을 빼앗겼다.
-![fn syntax에 잘못 쓰인 replace](img/refactor-others-code-fn-syntax.png)
+![fn syntax에 잘못 쓰인 replace](/img/refactor-others-code-fn-syntax.png)
 
 여기서 쓰인 replace는 계속해서 String을 복사한다. (reference인 `&str`를 받아서 owned type인 `String`를 주니 복사가 일어날 수밖에 없다.)
 replace하는 문자의 가짓수만큼 전체 문자열의 복사가 일어나니 속도 저하가 있다. (현재 사용처 한정으로 문자열이 길지 않아 큰 차이는 없다.)
@@ -74,7 +74,7 @@ replace하는 문자의 가짓수만큼 전체 문자열의 복사가 일어나�
 PR을 넣을 때는 테스트를 무조건 거쳐야 하는데 지인 코드랍시고 제대로 테스트를 돌리지 않은 점을 반성한다.
 
 위쪽은 텔레그램 API를 사용하는 부분인데, `api_link`와 `chat_id` 부분이 중복되는 것을 확인할 수 있다.
-![인자로 넘어가는 api_link와 chat_id가 중복되고 있다.](img/refactor-others-code-fn-syntax.png)
+![인자로 넘어가는 api_link와 chat_id가 중복되고 있다.](/img/refactor-others-code-fn-syntax.png)
 
 이 두 요소를 미리 저장해뒀다가 API를 사용할 때 꺼내 쓸 수 있게끔 struct를 구성하기로 했다.
 
