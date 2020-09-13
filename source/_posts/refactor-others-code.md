@@ -74,7 +74,7 @@ replace하는 문자의 가짓수만큼 전체 문자열의 복사가 일어나�
 PR을 넣을 때는 테스트를 무조건 거쳐야 하는데 지인 코드랍시고 제대로 테스트를 돌리지 않은 점을 반성한다.
 
 위쪽은 텔레그램 API를 사용하는 부분인데, `api_link`와 `chat_id` 부분이 중복되는 것을 확인할 수 있다.
-![인자로 넘어가는 api_link와 chat_id가 중복되고 있다.](/img/refactor-others-code-fn-syntax.png)
+![인자로 넘어가는 api_link와 chat_id가 중복되고 있다.](/img/refactor-others-code-telegram-api.png)
 
 이 두 요소를 미리 저장해뒀다가 API를 사용할 때 꺼내 쓸 수 있게끔 struct를 구성하기로 했다.
 
