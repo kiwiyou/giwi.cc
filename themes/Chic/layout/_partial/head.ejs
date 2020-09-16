@@ -61,6 +61,17 @@ if (is_archive()){
     <link rel="stylesheet" href="<%- url_for(url) %>">
     <% }); %>
 <% } %>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178132626-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178132626-1');
+</script>
+
 <%# javascript list %>
 <% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>
     <!-- scripts list from _config.yml -->
