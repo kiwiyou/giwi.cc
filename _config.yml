@@ -118,3 +118,9 @@ markdown:
     permalink: true
     permalinkClass: header-anchor
     permalinkSymbol: '# '
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
