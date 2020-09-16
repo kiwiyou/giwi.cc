@@ -121,6 +121,16 @@ markdown:
 
 sitemap:
   path: sitemap.xml
-  rel: false
   tags: true
   categories: true
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://giwi.cc/sitemap.xml
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 10
